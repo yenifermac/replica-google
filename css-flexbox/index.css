@@ -1,0 +1,187 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color:#FFFFFF ;
+    height: 100%;
+    width: 100%;
+}
+
+.div-container{
+
+    display: flex;
+    width: inherit;/* 
+    border: 2px solid #fff; */
+}
+
+.div-container .header{
+    width: 370px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header p{
+    color: black;
+    margin-right:25px;
+}
+.grid{
+    color: black;
+    
+}
+
+.dark-moode{
+
+    color: rgb(0, 0, 0);
+   
+}
+.header button{
+   background-color: rgb(10, 126, 235);
+   color:white;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   margin-top: 12px;
+   border: none;
+   border-radius: 3px;
+   text-align: center;
+   cursor: pointer;
+   
+   
+}
+
+
+p{
+    
+    color: aliceblue;
+}
+
+.div-container-medio{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.input-search{
+
+    position: relative;
+}
+.input-search input{
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid #dddcdc;
+    width: 540px;
+    height: 45px;
+    background-color: #FFFFFF; 
+}
+.lupa-busqueda{
+
+    position: absolute; 
+    left: 10px;
+    top: 17px;
+    color: grey;
+}
+
+.icono-voz  {
+
+    position: absolute; 
+    right: 55px;
+    top: 17px;
+    color: gray;
+    cursor: pointer;
+}
+
+.input-search img {
+
+    position: absolute; 
+    right: 20px;
+    top: 17px;
+    color: gray;
+    width: 18px;
+    cursor: pointer;
+}
+
+.buttons{
+
+    width: 25%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.buttons button{
+    width: 150px;
+    height: 35px;
+    background-color: #F8F9FA;
+    border: none ;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.lenguaje p{
+
+    color: rgb(80, 74, 74);
+}
+
+.div-container.navigation{
+    justify-content: flex-end;
+
+}
+
+
+.div-container-footer{
+    width: inherit;
+    height: 98px;
+    margin-top: 170px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.div-container-footer .div-about{
+    display: flex;
+    height: 40px;
+    width: 1366px;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    border-top: 1px solid #dddcdc;
+    font-size: 15px;
+}
+
+
+.div-container-footer .div-about .more-information1 {
+    margin-left: 12px;
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: 5%;
+   
+}
+
+.div-container-footer .div-about .more-information{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    
+}
+
+.div-container-footer .div-about .more-information1 p{
+
+    margin-right: 25px;
+ }
+
+ .div-container-footer .div-about .more-information p{
+
+    margin-right: 15px;
+    
+ }
+
+ 
+.div-country p {
+    margin-left: 25px;
+    color: #78757A;
+}
